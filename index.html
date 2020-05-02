@@ -10,37 +10,39 @@
     <link rel="stylesheet" href="css/architects.main.css">
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
     <header id="home">
-        <!-- start of navbar -->
-        <nav class="navbar navbar-expand-lg">
-            <div class="container"> <a class="navbar-brand text-uppercase" href="#"><span>lt</span> architects</a>
-                <button class="navbar-toggler border-red second-button" type="button" data-toggle="collapse"
-                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <div class="animated-icon2"><span></span><span></span><span></span><span></span></div>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item"> <a class="nav-link active" href="#" data-value="home">Home</a></li>
-                        <li class="nav-item"> <a class="nav-link" href="#" data-value="projects">projects</a></li>
-                        <li class="nav-item"> <a class="nav-link" href="#" data-value="about">about us</a></li>
-                        <li class="nav-item"> <a class="nav-link" href="#" data-value="news">news</a></li>
-                        <li class="nav-item"> <a class="nav-link" href="#" data-value="contact">contact us</a></li>
-                    </ul>
+        <div class="overlay">
+            <!-- start of navbar -->
+            <nav class="navbar navbar-expand-lg">
+                <div class="container"> <a class="navbar-brand text-uppercase" href="index.html"><span>lt</span> architects</a>
+                    <button class="navbar-toggler border-red second-button" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <div class="animated-icon2"><span></span><span></span><span></span><span></span></div>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item"> <a class="nav-link active" href="#home">Home</a></li>
+                            <li class="nav-item"> <a class="nav-link" href="#projects">projects</a></li>
+                            <li class="nav-item"> <a class="nav-link" href="#about">about us</a></li>
+                            <li class="nav-item"> <a class="nav-link" href="#news">news</a></li>
+                            <li class="nav-item"> <a class="nav-link" href="#contact">contact us</a></li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-        </nav>
-        <!-- end of navbar -->
+            </nav>
+            <!-- end of navbar -->
 
-        <!-- start of header -->
-        <div class="hero">
-            <div class="container">
-                <div class="intro">
-                    <h1 class="text-uppercase">Architects</h1>
-                    <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna.</h5>
-                    <button>Contact</button>
+            <!-- start of header -->
+            <div class="hero">
+                <div class="container">
+                    <div class="intro">
+                        <h1 class="text-uppercase">Architects</h1>
+                        <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna.</h5>
+                        <button><a href="#contact">Contact</a></button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -103,10 +105,10 @@
         <div class="container">
             <h3 class="text-uppercase"><span>about</span> us</h3>
             <div class="row">
-                <div class="col d-flex justify-content-center">
+                <div class="col-sm-12 col-md-12 col-lg-6 d-flex justify-content-center">
                     <h4 class="text-uppercase">layton & taylor architects</h4>
                 </div>
-                <div class="col d-flex justify-content-center">
+                <div class="col-sm-12 col-md-12 col-lg-6 d-flex justify-content-center">
                     <div class="desc">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
